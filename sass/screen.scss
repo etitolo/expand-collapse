@@ -29,6 +29,12 @@ a {
     margin: 10px 0;
 }
 
+.expand-collapse {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
 h1 {
     font-size: 2rem;
     text-align: center;
@@ -42,20 +48,17 @@ h1 {
 
 .links {
     width: 500px;
-    margin: 0 auto;
     text-align: center;
     padding-top: 50px;
     line-height: 2;
+    margin: 0 auto;
 }
 
 // Start expand/collapse Code //
 
 .expand-collapse {
     border: 1px solid #000;
-    width: 400px;
-    margin: 0 auto;
     overflow: hidden;
-    margin-top: 40px;
     box-shadow: 3px 3px 10px rgba(0,0,0,.40);
 }
 

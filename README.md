@@ -1,0 +1,3 @@
+I know, there are probably a million of these out there. The difference with this one is that it doesn't use JavaScript height calculations. The only thing JavaScript is doing is toggling classes. Keyframe animations handle the expand/collapse behavior. The keframes are adjusting max-height at three different points.
+
+Demo: [etitolo.github.io/expand-collapse/](http://etitolo.github.io/expand-collapse/index.html)
