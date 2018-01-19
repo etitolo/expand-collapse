@@ -32,6 +32,10 @@ a {
 .expand-collapse {
     width: 400px;
     margin: 0 auto;
+    margin-top: 20px;
+}
+
+.ec-first {
     margin-top: 40px;
 }
 
@@ -57,15 +61,15 @@ h1 {
 // Start expand/collapse Code //
 
 .expand-collapse {
-    border: 1px solid #000;
+    border: 1px solid #666;
     overflow: hidden;
-    box-shadow: 3px 3px 10px rgba(0,0,0,.40);
+    box-shadow: 3px 3px 6px rgba(0,0,0,.40);
 }
 
 .header {
     background: #EEE;
     padding: 10px;
-    outline: 1px solid #000;
+    outline: 1px solid #666;
     &::before {
         content: "";
         height: 36px;
