@@ -70,6 +70,7 @@ h1 {
     background: #EEE;
     padding: 10px;
     outline: 1px solid #666;
+    cursor: pointer;
     &::before {
         content: "";
         height: 36px;
