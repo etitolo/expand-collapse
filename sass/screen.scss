@@ -89,17 +89,15 @@ h1 {
 
 .content-container {
     max-height: 0;
+    animation-name: up;
+    animation-duration: .5s;
     &.expanded {
-        -webkit-animation-name: down;
         animation-name: down;
-        -webkit-animation-duration: .5s;
         animation-duration: .5s;
-        -webkit-animation-fill-mode: both;
         animation-fill-mode: both;
     }
     &.collapsed {
         animation-name: up;
-        -webkit-animation-duration: .5s;
         animation-duration: .5s;
     }
 }
